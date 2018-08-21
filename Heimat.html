@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+	<link rel="stylesheet" href="css/style.css">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin: 0;
+    padding-left:10px;
+    z-index: 1;
+    border-bottom: solid 4px;
+    border-right: solid 4px;
+    border-color: #000;
+    height: 80px; 
+}
+
+
+.row:after {
+
+    content: "";
+    display: ;
+    clear: both;
+}
+
+
+</style>
+
+
+<div class="row">
+
+
+
+    <div onclick="openDropdown(this)" class="column dropdown" style="background-color:white;">
+    <ul>
+
+    <li><a href="#" class="dropbtn">Heimat</a></li>
+     <div class="dropdown-content">
+      <a href="#">In English and also in many other languages there is no identifier for the German word «Heimat», which describes the feeling of home and the local origin of a person at the same time. I wanted to highlight this contradiction with my work in the first semester. For me, «Heimat» as an abstract term remained a surreal idea and a philosophical construction. The newspaper shows photographs of roads in the background (as a metaphor for the path of searching) and a surreal place in the foreground (as a metaphor for the non-existence of this term). The images work with questions from the questionnaire of Max Frisch, a Swiss author. 
+</a>
+
+        
+    </div>
+    </ul>
+
+
+
+
+    </div>
+
+
+    <div onclick="openDropdown(this)" class="column dropdown" style="background-color:white;">
+    <ul>
+    <li><a  href="#" class="dropbtn" >ABOUT</a></li>  
+    <div class="dropdown-content">
+      <a >Laura Leuenberger (*1994) is a graphic designer based in Switzerland. 
+       <br>
+        </br>
+        2014 - 2015 Remedial Art Course Hochschule für Kunst und Design Luzern 
+        <br>
+        </br>
+        
+
+        2015 - 2018 Bachelor Visual Communication Hochschule der Künste Bern 
+        <br>
+        </br>
+    
+        Webdesign: Laura Leuenberger
+        Code: Michael Schürmann</a>
+     
+    </div>
+    </ul>
+    </div>
+
+
+    <div class="column" style="background-color:#000;">
+    <ul>
+    <li><a>WORK</a></li>
+    </div>
+
+
+
+</head>
+
+
+<body>
+
+	<div class="sidenav">
+		
+            
+            <a href="KFZ.html">KFZ</a>
+	  		<a href="Life%20in%20Pictures.html">Life in Pictures</a>
+            <a href="Big%20Data.html">Big Data</a>
+            <a href="Heimat.html">Heimat</a>
+            <a href="Pure%20News.html">Pure News</a>
+            <a href="ABCicade.html">ABCicade</a>
+            <a href="Royal%20Baden.html">Royal Baden</a>
+
+	 
+	</div>
+
+	<div class="main">
+
+
+   <div id="picture2" class="imageOne"></div>
+	 <img id="picture" src="pictures/heimat/heimat_1.jpg" onclick="changePicture()">  
+	<span id="info">Mousposition</span>
+
+
+	</div>
+
+  
+
+	<!-- MAIN JS -->
+	<script src="js/main4.js"></script>
+</body>
+
+
+</html>

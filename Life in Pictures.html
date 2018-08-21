@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<link rel="stylesheet" href="css/style.css">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin: 0;
+    padding-left:10px;
+    z-index: 1;
+    border-bottom: solid 4px;
+    border-right: solid 4px;
+    border-color: #000;
+    height: 80px; 
+}
+
+
+.row:after {
+
+    content: "";
+    display: ;
+    clear: both;
+}
+
+
+</style>
+
+
+<div class="row">
+
+
+
+     <div onclick="openDropdown(this)" class="column dropdown" style="background-color:white;">
+    <ul>
+
+    <li><a href="#" class="dropbtn">Life in Pictures</a></li>
+     <div class="dropdown-content">
+      <a href="#">This editorial project emerged as a school project in the fourth semester. The assignment was to interpret family photographs in a different and new way. I focused on the image sections with hands in them. In pictures, hands can tell a lot more than the fake and pretended smiles. They show how the person felt at he moment when the picture was taken and how they are related to each other. The dramaturgical construction of the publication starts with pictures of the insecure hands of an individual. The pictures following subsequently show a gradual development of the increasing confidence in the gestures. Starting from the middle of the book, the pictures not only show hands of an individual person, but two hands touching each other, hence emphasizing the relationship between the two people. The publication uses the opposition of intimate photographs of my family on the right page and public photographs of politicians on the other page. Therefore, the difference between intimacy and public view of gesture is highlighted. The cover focuses on the localization of the index of the pictured people, who can each be identified by their first names (like Vladimir, Angela, Gino, Luisa etc.) These pictures also show intimacy in a public space. 
+</a>
+
+        
+    </div>
+    </ul>
+
+
+
+
+    </div>
+
+
+    <div onclick="openDropdown(this)" class="column dropdown" style="background-color:white;">
+    <ul>
+    <li><a  href="#" class="dropbtn" >ABOUT</a></li>  
+    <div class="dropdown-content">
+     <a >Laura Leuenberger (*1994) is a graphic designer based in Switzerland. 
+       <br>
+        </br>
+        2014 - 2015 Remedial Art Course Hochschule für Kunst und Design Luzern 
+        <br>
+        </br>
+        
+
+        2015 - 2018 Bachelor Visual Communication Hochschule der Künste Bern 
+        <br>
+        </br>
+    
+        Webdesign: Laura Leuenberger
+        Code: Michael Schürmann</a>
+     
+    </div>
+    </ul>
+    </div>
+
+
+    <div class="column" style="background-color:#000;">
+    <ul>
+    <li><a>WORK</a></li>
+    </div>
+
+
+
+</head>
+
+
+<body>
+
+	<div class="sidenav">
+		
+	  	
+	  	    <a href="KFZ.html">KFZ</a>
+	  		<a href="Life%20in%20Pictures.html">Life in Pictures</a>
+            <a href="Big%20Data.html">Big Data</a>
+            <a href="Heimat.html">Heimat</a>
+            <a href="Pure%20News.html">Pure News</a>
+            <a href="ABCicade.html">ABCicade</a>
+            <a href="Royal%20Baden.html">Royal Baden</a>
+           
+           
+
+	 
+	</div>
+
+	<div class="main">
+
+
+   <div id="picture2" class="imageOne"></div>
+	 <img id="picture" src="pictures/lifeinpictures/lifeinpictures2.jpg" onclick="changePicture()">  
+	<span id="info">Mousposition</span>
+
+
+	</div>
+
+  
+
+	<!-- MAIN JS -->
+	<script src="js/main2.js"></script>
+</body>
+
+
+</html>

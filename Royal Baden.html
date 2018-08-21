@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<link rel="stylesheet" href="css/style.css">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin: 0;
+    padding-left:10px;
+    z-index: 1;
+    border-bottom: solid 4px;
+    border-right: solid 4px;
+    border-color: #000;
+    height: 80px; 
+}
+
+
+.row:after {
+
+    content: "";
+    display: ;
+    clear: both;
+}
+
+
+</style>
+
+
+<div class="row">
+
+
+
+    <div onclick="openDropdown(this)" class="column dropdown" style="background-color:white;">
+    <ul>
+
+    <li><a href="#" class="dropbtn">Royal Baden</a></li>
+     <div class="dropdown-content">
+      <a href="#">The posters for Royal Baden, a place of cultural events in Baden, Switzerland, were created in cooperation with our collective Block 11, which I founded with Yoshiya Abiko. Most of the posters were created in just one day. </a>
+
+        
+    </div>
+    </ul>
+
+
+
+
+    </div>
+
+
+    <div onclick="openDropdown(this)" class="column dropdown" style="background-color:white;">
+    <ul>
+    <li><a  href="#" class="dropbtn" >ABOUT</a></li>  
+    <div class="dropdown-content">
+     <a >Laura Leuenberger (*1994) is a graphic designer based in Switzerland. 
+       <br>
+        </br>
+        2014 - 2015 Remedial Art Course Hochschule für Kunst und Design Luzern 
+        <br>
+        </br>
+        
+
+        2015 - 2018 Bachelor Visual Communication Hochschule der Künste Bern 
+        <br>
+        </br>
+    
+        Webdesign: Laura Leuenberger
+        Code: Michael Schürmann</a>
+     
+    </div>
+    </ul>
+    </div>
+
+
+    <div class="column" style="background-color:#000;">
+    <ul>
+    <li><a>WORK</a></li>
+    </div>
+
+
+
+</head>
+
+
+<body>
+
+	<div class="sidenav">
+		
+	  	  
+            <a href="KFZ.html">KFZ</a>
+	  		<a href="Life%20in%20Pictures.html">Life in Pictures</a>
+            <a href="Big%20Data.html">Big Data</a>
+            <a href="Heimat.html">Heimat</a>
+            <a href="Pure%20News.html">Pure News</a>
+            <a href="ABCicade.html">ABCicade</a>
+            <a href="Royal%20Baden.html">Royal Baden</a>
+	
+           
+
+	 
+	</div>
+
+	<div class="main">
+
+
+   <div id="picture2" class="imageOne"></div>
+	 <img id="picture" src="pictures/royalbaden/P1.jpg" onclick="changePicture()">  
+	<span id="info">Mousposition</span>
+
+
+	</div>
+
+  
+
+	<!-- MAIN JS -->
+	<script src="js/main7.js"></script>
+</body>
+
+
+</html>
