@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('GTAmerica-ExpandedRegular.eot');
+    src: url('GTAmerica-ExpandedRegular.eot?#iefix') format('embedded-opentype'),
+        url('GTAmerica-ExpandedRegular.woff2') format('woff2'),
+        url('GTAmerica-ExpandedRegular.woff') format('woff'),
+        url('GTAmerica-ExpandedRegular.ttf') format('truetype'),
+        url('GTAmerica-ExpandedRegular.svg#GTAmerica-ExpandedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
